@@ -1,0 +1,163 @@
+/* custom footer start */
+.list-unstyled {
+  list-style: none;
+  display: grid;
+  grid-gap: -20px;
+  grid-template-columns: repeat(6, 1fr);
+  text-align: center;
+}
+.special-color-dark {
+  background-color: #263238 !important;
+}
+.footer-copyright {
+  background-color: rgba(0, 0, 0, 0.2);
+  color: rgba(255, 255, 255, 0.6);
+}
+.btn-fb {
+  background-color: #3b5998 !important;
+  color: #fff !important;
+}
+.btn-tw {
+  background-color: #55acee !important;
+  color: #fff !important;
+}
+.btn-insta {
+  background: #f09433;
+  background: -moz-linear-gradient(
+    45deg,
+    #f09433 0%,
+    #e6683c 25%,
+    #dc2743 50%,
+    #cc2366 75%,
+    #bc1888 100%
+  );
+  background: -webkit-linear-gradient(
+    45deg,
+    #f09433 0%,
+    #e6683c 25%,
+    #dc2743 50%,
+    #cc2366 75%,
+    #bc1888 100%
+  );
+  background: linear-gradient(
+    45deg,
+    #f09433 0%,
+    #e6683c 25%,
+    #dc2743 50%,
+    #cc2366 75%,
+    #bc1888 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+  color: #fff !important;
+}
+.btn-company {
+  background: #0f2027;
+  background: -moz-linear-gradient(
+    45deg,
+    #203a43 0%,
+    #2c5364 25%,
+    #2c5364 50%,
+    #2c5364 75%,
+    #0f2027 100%
+  );
+  background: -webkit-linear-gradient(
+    45deg,
+    #203a43 0%,
+    #2c5364 25%,
+    #2c5364 50%,
+    #2c5364 75%,
+    #0f2027 100%
+  );
+  background: linear-gradient(
+    45deg,
+    #203a43 0%,
+    #2c5364 25%,
+    #2c5364 50%,
+    #2c5364 75%,
+    #0f2027 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+  color: #fff !important;
+}
+.btn-github {
+  background: #bdc3c7;
+  background: -moz-linear-gradient(
+    45deg,
+    #2c3e50 0%,
+    #2c3e50 25%,
+    #2c3e50 50%,
+    #2c5364 75%,
+    #2c3e50 100%
+  );
+  background: -webkit-linear-gradient(
+    45deg,
+    #2c3e50 0%,
+    #2c3e50 25%,
+    #2c3e50 50%,
+    #2c5364 75%,
+    #2c3e50 100%
+  );
+  background: linear-gradient(
+    45deg,
+    #2c3e50 0%,
+    #2c3e50 25%,
+    #2c3e50 50%,
+    #2c5364 75%,
+    #2c3e50 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+  color: #fff !important;
+}
+.btn-li {
+  background-color: #0082ca !important;
+  color: #fff !important;
+}
+.btn-dribbble {
+  background-color: #ec4a89 !important;
+  color: #fff !important;
+}
+.fa {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.btn-floating i {
+  display: inline-block;
+  width: inherit;
+  text-align: center;
+  color: #fff;
+}
+.btn-floating i {
+  font-size: 1.25rem;
+  line-height: 47px;
+}
+.btn-floating {
+  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18),
+    0 4px 15px 0 rgba(0, 0, 0, 0.15) !important;
+  box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15) !important;
+  width: 47px;
+  height: 47px;
+  position: relative;
+  z-index: 1;
+  vertical-align: middle;
+  display: inline-block;
+  overflow: hidden;
+  -webkit-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  margin: 10px;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  padding: 0;
+  cursor: pointer;
+}
+@media screen and (max-width: 780px) {
+  .list-unstyled {
+    grid-gap: 0;
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+/* custom footer end */
